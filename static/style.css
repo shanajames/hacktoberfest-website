@@ -3,3 +3,98 @@
     margin: 0px;
     outline: none;
 }
+body{
+    background: url("/static/images/1MainBackground.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+   
+    
+}
+.heading{
+    text-align: center!important;
+    font-size: 90px!important;
+    font-family:webkit-body!important;
+    padding-top: 100px!important;
+    color: white!important;
+    padding-left: 200px!important;
+
+    
+    
+
+}
+.btn{
+    border: 1px solid #09ebf3;
+    padding: 10px 25px;
+    color:rgb(102, 51, 153);
+    text-decoration:aqua; 
+    font-size: 18pt;
+    background-color: aqua;
+    
+}
+.btn:hover{
+    border: 2px solid rgb(201, 78, 33);
+    background-color:orangered;
+    color:aqua;
+    font-size: 18pt;
+    
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+    margin-left: 55px;
+    margin-top: -1px;
+}
+.logo li{
+    display: inline-block;
+    margin-left: 845px;
+    
+}
+.logo li a{
+    padding: 5px 4px; 
+    display: inline-block;
+
+}
+.logo{
+    margin-left: 550px;
+    font-size: 20px;
+}
+
+
+
+    a {
+        color: #fcffff;
+        text-decoration: double;
+        background-color: #f3eded00;
+        
+}
+ul{
+    list-style: none;
+    float: right;
+    margin-right: 334px;
+    font-size: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    padding: 5px 20px
+}
+ul li.act{ color: #fcffff;
+    text-decoration: double;
+    background-color: #f3eded00;
+
+}
+ul li.hacks{
+    font-family: fantasy;
+    letter-spacing: 3pt;
+}
+.btn{
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    margin-right: 334px;
+    
+
+}
